@@ -1,7 +1,7 @@
 import { ApolloClient, InMemoryCache } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: 'https://travel-booking-mu.vercel.app/graphql', // GraphQL endpoint
+  uri: 'https://travel-booking-eight-beige.vercel.app/graphql', // GraphQL endpoint
   cache: new InMemoryCache(),
 });
 
