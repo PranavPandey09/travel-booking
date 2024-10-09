@@ -9,7 +9,7 @@ const app = express();
 
 // Enable CORS
 app.use(cors({
-  origin: '*'  // Allow all origins or specify your frontend URL here
+  origin: 'https://travel-booking-1z9v.vercel.app/'  // Allow all origins or specify your frontend URL here
 }));
 
 // MongoDB connection
